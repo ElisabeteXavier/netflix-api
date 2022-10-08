@@ -1,8 +1,10 @@
-package com.netflix.api.netflixapi;
+package com.netflix.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
+@EnableWebMvc
 @SpringBootApplication
 public class NetflixApiApplication {
 
